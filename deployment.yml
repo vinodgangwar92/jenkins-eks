@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: admin-dashboard-container
-          image: vinodgangwar92/ekslab
+          image: vinodgangwar92/ekslab:039
           ports:
             - containerPort: 80
