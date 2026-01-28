@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = "shivsoftapp/admin-dashboard"
+        IMAGE_NAME = "vinodgangwar92/ekslab"
         IMAGE_TAG  = "039"
     }
 
