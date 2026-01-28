@@ -2,7 +2,7 @@
 FROM nginx:alpine
 
 # Copy our static site into nginx web root
-COPY /usr/share/nginx/html/
+COPY . /usr/share/nginx/html/
 
 # Expose HTTP port
 EXPOSE 80
